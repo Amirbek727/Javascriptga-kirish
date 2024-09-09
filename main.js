@@ -1,13 +1,32 @@
-function subtractNumbers() {
-  let num1 = parseFloat(prompt("Birinchi sonni kiriting:"));
-  let num2 = parseFloat(prompt("Ikkinchi sonni kiriting:"));
-  let result;
+// let son = 3;
 
-  if (num1 > num2) {
-      result = num1 - num2;
-  } else {
-      result = num2 - num1;
+//  while (son < 100 ) 
+//    if () {
+
+//    } else {
+      
+//    }
+//     console.log(son); 
+//     son = son + 3;
+
+
+
+// let son = 3;
+
+//  Range (son < 100 ) 
+//    if () {
+
+//    } else {
+      
+//    }
+//     console.log(son); 
+//     son = son + 3;
+
+
+function range(a, b) {
+  while (a <=b ) {
+    console.log(a);
+    a = a + 2;
   }
-
-  console.log("Natija: " + result);
 }
+range(50, 100);
